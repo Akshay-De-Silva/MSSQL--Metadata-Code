@@ -49,6 +49,8 @@
 //     `;
 
 //     sql:ParameterizedQuery query1 = `
+//         USE metadataDB;
+
 //         CREATE PROCEDURE getEmpsName( @EMPNUMBER INT, @FNAME VARCHAR(20) OUT)
 //         AS
 //             SELECT @FNAME = FIRSTNAME
@@ -57,6 +59,8 @@
 //     `;
 
 //     sql:ParameterizedQuery query2 = `
+//         USE metadataDB;
+
 //         CREATE PROCEDURE getEmpsEmail( @EMPNUMBER INT, @EMPEMAIL VARCHAR(20) OUT)
 //         AS
 //             SELECT @EMPEMAIL = EMAIL
